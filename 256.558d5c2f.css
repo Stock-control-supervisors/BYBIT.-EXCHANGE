@@ -1,0 +1,203 @@
+:root,
+:root.cht-login-register-light,
+:root .cht-login-register-component-light,
+:root.cht-login-register-dark .cht-login-register-component-light {
+    color-scheme: light;
+    /*
+   * UED Custom Color Group
+   */
+
+    /* Text & Icon */
+    --cht-gray-t1-title: #121214;
+    --cht-gray-t2: #81858c;
+    --cht-gray-t3: #adb1b8;
+    --cht-gray-t4-dis: #d5dae0;
+    --cht-gray-t1-title-revert: #fff;
+
+    /* Element & Background */
+    --cht-gray-ele-border: #e9edf2;
+    --cht-gray-ele-line: #f3f5f7;
+    --cht-gray-ele-edge: #f9fafb;
+    --cht-gray-bg-page: #f5f7fa;
+    --cht-gray-bg-area: #fff;
+    --cht-gray-bg-card: #fff;
+    --cht-gray-bg-float: #fff;
+    --cht-trans-mask: rgb(56 58 61 / 60%);
+    --cht-trans-hover: rgb(56 68 82 / 6%);
+
+    /* brand color */
+    --cht-brand-600-hover: #ffc35c;
+    --cht-brand-700-normal: #f7a600;
+    --cht-brand-800-pressed: #f0960e;
+    --cht-brand-900-focus: #eb8d13;
+    --cht-brand-900-text: #d6850d;
+    --cht-brand-100-bg: rgb(247 166 0 / 12%);
+
+    /* red */
+    --cht-red-600-hover: #fc7272;
+    --cht-red-700-normal: #ef454a;
+    --cht-red-800-pressed: #cc3939;
+    --cht-red-900-focus: #cc3939;
+    --cht-red-100-bg: rgb(239 69 74 / 12%);
+
+    /* green */
+    --cht-green-600-hover: #41bf7e;
+    --cht-green-700-normal: #20b26c;
+    --cht-green-800-pressed: #00944f;
+    --cht-green-900-focus: #00944f;
+    --cht-green-100-bg: rgb(32 178 108 / 12%);
+
+    /* gradient */
+    --cht-gradient-reddish: linear-gradient(90deg, #f90 0%, #ff6a59 100%);
+    --cht-gradient-brand: linear-gradient(97.12deg, #ffd748 0.93%, #f7a600 100%);
+    --cht-gradient-tab-scroll-left: linear-gradient(270deg,
+            rgba(255, 255, 255, 0%) 0%,
+            #fff 100%);
+    --cht-gradient-tab-scroll-right: linear-gradient(270deg,
+            #fff 0%,
+            rgba(255, 255, 255, 0%) 100%);
+
+    /* box shadow (Web Only) */
+    --cht-shadow-l1: 0 0 4px 0 rgba(18, 18, 20, 10%);
+    --cht-shadow-l2: 0 0 24px 0 rgba(18, 18, 20, 10%);
+    --cht-focused-halo-brand: 0 0 0 5px var(--cht-brand-100-bg);
+    --cht-focused-halo-green: 0 0 0 5px var(--cht-green-100-bg);
+    --cht-focused-halo-red: 0 0 0 5px var(--cht-red-100-bg);
+
+    /* underline */
+    --cht-underline-dashed: 1px dashed #d5dae0;
+
+    /* Tag Colors */
+    --cht-tag-text-primary: #e18e12;
+    --cht-tag-text-neutral: var(--cht-black);
+
+    /* --cht-tag-bg-neutral-light */
+
+    /* empty state */
+    --cht-empty-svg-border: #595d61;
+    --cht-empty-svg-line: #595d61;
+    --cht-empty-svg-opacity: 1;
+    --cht-empty-svg-filter-1: url('#filter0_i_2694_140312');
+
+    /* Checkbox */
+    --cht-checkbox-type-checked: var(--cht-static-white);
+
+    /* hex to rgb */
+    --cht-gray-ele-line-rgb: 243, 245, 247;
+
+    /* non exist in design */
+    --cht-black-white: #fff;
+
+    /* Badge */
+    --cht-badge-type-secondary-text-color: var(--cht-static-black);
+    --cht-badge-type-secondary-bg-color: rgba(56, 68, 82, 6%);
+    --cht-badge-sup-type-secondary-text-color: #adb1b8;
+    --cht-badge-sup-text-color: var(--cht-brand-900-text);
+    --cht-gray-bg-page: #F5F7FA;
+    --cht-alert-aff-bg: #e9edf2;
+    --cht-modal-mask-bg: rgba(0,0,0,.2);
+}
+
+/* _base.css */
+:root.cht-login-register-dark,
+:root.cht-login-register-component-dark,
+:root .cht-login-register-component-dark,
+:root.cht-login-register-light .cht-login-register-component-dark {
+  color-scheme: dark;
+
+  /*
+   * UED Custom Color Group
+  */
+
+  /* Text & Icon */
+  --cht-gray-t1-title: #fff;
+  --cht-gray-t2: #adb1b8;
+  --cht-gray-t3: #71757a;
+  --cht-gray-t4-dis: #595d61;
+  --cht-gray-t1-title-revert: #121214;
+
+  /* Element & Background */
+  --cht-gray-ele-border: #404347;
+  --cht-gray-ele-line: #25282c;
+  --cht-gray-ele-edge: #1e2023;
+  --cht-gray-bg-page: #000;
+  --cht-gray-bg-area: #101014;
+  --cht-gray-bg-card: #16171a;
+  --cht-gray-bg-float: #333537;
+  --cht-trans-mask: rgb(1 3 5 / 80%);
+  --cht-trans-hover: rgb(192 210 231 / 12%);
+
+  /* brand color */
+  --cht-brand-600-hover: #ffc35c;
+  --cht-brand-700-normal: #f7a600;
+  --cht-brand-800-pressed: #f0960e;
+  --cht-brand-900-focus: #f0960e;
+  --cht-brand-900-text: #f7a600;
+  --cht-brand-100-bg: rgb(247 166 0 / 16%);
+
+  /* red */
+  --cht-red-600-hover: #fc7272;
+  --cht-red-700-normal: #ef454a;
+  --cht-red-800-pressed: #cc3939;
+  --cht-red-900-focus: #cc3939;
+  --cht-red-100-bg: rgb(239 69 74 / 16%);
+
+  /* green */
+  --cht-green-600-hover: #41bf7e;
+  --cht-green-700-normal: #20b26c;
+  --cht-green-800-pressed: #00944f;
+  --cht-green-900-focus: #00944f;
+  --cht-green-100-bg: rgb(32 178 108 / 16%);
+
+  /* gradient */
+  --cht-gradient-reddish: linear-gradient(90deg, #f90 0%, #ff6a59 100%);
+  --cht-gradient-brand: linear-gradient(133deg,
+      #ffd748 -1.87%,
+      #f7a600 101.87%);
+  --cht-gradient-tab-scroll-left: linear-gradient(270deg,
+      rgba(1, 1, 1, 0%) 0%,
+      #010101 100%);
+  --cht-gradient-tab-scroll-right: linear-gradient(270deg,
+      #010101 0%,
+      rgba(1, 1, 1, 0%) 100%);
+
+  /* box shadow  (Web Only) */
+  --cht-shadow-l1: 0 0 4px 0 rgba(18, 18, 20, 10%);
+  --cht-shadow-l2: 0 0 24px 0 rgba(18, 18, 20, 10%);
+  --cht-focused-halo-brand: 0 0 0 5px var(--cht-brand-100-bg);
+  --cht-focused-halo-green: 0 0 0 5px var(--cht-green-100-bg);
+  --cht-focused-halo-red: 0 0 0 5px var(--cht-red-100-bg);
+
+  /* underline */
+  --cht-underline-dashed: 1px dashed #595d61;
+
+  /* Tag Colors */
+  --cht-tag-text-primary: var(--cht-brand-700-normal);
+  --cht-tag-text-neutral: var(--cht-static-white);
+
+  /* empty */
+  --cht-empty-svg-border: #71757a;
+  --cht-empty-svg-line: #f7a600;
+  --cht-empty-svg-opacity: 0.41;
+  --cht-empty-svg-filter-1: url('#filter1_i_8929_6128');
+  --cht-empty-svg-filter-0: url('#filter0_i_8929_6128');
+
+  /* Checkbox */
+  --cht-checkbox-type-checked: var(--cht-static-black);
+
+  /* hex to rgb */
+  --cht-gray-ele-line-rgb: 32, 33, 36;
+
+  /* non exist in design */
+  --cht-black-white: #000;
+
+  /* Badge */
+  --cht-badge-type-secondary-text-color: #fff;
+  --cht-badge-type-secondary-bg-color: rgba(192, 210, 231, 12%);
+  --cht-badge-sup-type-secondary-text-color: #71757a;
+  --cht-badge-sup-text-color: #f7a600;
+  --cht-alert-aff-bg: #25282c;
+  --cht-modal-mask-bg: rgba(1,3,5,.8);
+}
+
+/* _base.css */
