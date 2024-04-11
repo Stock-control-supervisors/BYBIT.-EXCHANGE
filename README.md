@@ -1,2 +1,2 @@
 # BYBIT.-EXCHANGE
-Stock Control Suppervisor
+Stock Control Supervisor . Romeo Rosete
